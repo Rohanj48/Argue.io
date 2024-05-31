@@ -78,7 +78,7 @@ function ChatSection() {
                 Connect
             </button>
             <div
-                className="w-full min-h-80 bg-gray-600 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-100
+                className="w-full min-h-80  rounded-md  border border-gray-100
 "
             >
                 {messageList.map((msg) => (
@@ -99,10 +99,10 @@ function ChatSection() {
                 }}
             />
             <button
-                className="text-xl bg-red-600 rounded-md px-1.5"
+                className="text-xl bg-green-600 rounded-md px-1.5"
                 onClick={sendMessageFunc}
             >
-                send
+                7
             </button>
         </div>
     );
